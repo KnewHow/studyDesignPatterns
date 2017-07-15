@@ -1,0 +1,3 @@
+In this case,Wizard class tell too many thing to InstallSoft,we 
+should reduce the communication between two class
+ 

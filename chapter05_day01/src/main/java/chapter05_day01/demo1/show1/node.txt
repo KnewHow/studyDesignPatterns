@@ -1,0 +1,5 @@
+In this case,teacher ask group leader to count the quantity of
+girls. Teacher and group leader is friend,but teacher has relation
+with girl. This is error. In a class, relation build is only 
+at class,not at method.This demo let teacher and girl produce
+dependence.
