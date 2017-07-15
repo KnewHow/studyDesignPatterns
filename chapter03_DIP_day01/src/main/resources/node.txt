@@ -1,4 +1,4 @@
-依赖导致原则(Dependence Inversion Principle DIP)：High level modules should
+依赖倒置原则(Dependence Inversion Principle DIP)：High level modules should
 not depend upon low level modules. Both should depend upon abstractions.
 Abstractions should not depend upon details. Details should depend
 upon abstractions.
