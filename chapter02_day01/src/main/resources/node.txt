@@ -1,3 +1,4 @@
+里氏替换原则：
 Demo1 show relation between class and sub-class
 
 Demo2 show the LSP(Liskov Substitution Principle)里氏替换原则
