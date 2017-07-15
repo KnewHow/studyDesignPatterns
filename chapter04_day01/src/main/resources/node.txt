@@ -1,0 +1,13 @@
+接口隔离原则：
+
+接口分类：
+	*实例接口：就是public class XXX
+	*类接口：就是 public inferface XXX
+
+接口隔离原则的定义：
+Clients should not be forced to depend upon interfaces that they
+don't use
+
+一句话：建立单一接口，接口细化
+还有一个原则：根据接口隔离原则拆分接口时，必须满足单一职责的原则
+
