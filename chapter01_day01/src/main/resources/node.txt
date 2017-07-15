@@ -1,2 +1,3 @@
+单一职责原则：
 In program,we need to  make interface SRP,A class become a SRP is
 better,but in really environment,This is sometimes hard to see. 
