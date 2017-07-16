@@ -1,0 +1,8 @@
+开闭原则：Soft entities like classes,modules and functions should be
+open for extensions but close for modifications.
+
+一句话：对软件实体的变化需求，应该通过扩展来实现，而不是通过修改来实现
+扩展的方法：
+	*继承
+	*装饰者模式
+	*动态代理
