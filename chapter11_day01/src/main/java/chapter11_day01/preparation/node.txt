@@ -1,0 +1,5 @@
+This demo don't Builder Pattern,it just a demo of how to produce
+car which satisfy customers one request,but if customers have many
+requests,How many class we need to write? Why not to write a class
+to produce all car which may satisfy all requests and can be expend.
+It is the Builder Pattern.
