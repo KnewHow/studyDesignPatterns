@@ -1,6 +1,5 @@
 package chapter11_day01.builderPattern;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -10,7 +9,7 @@ import java.util.List;
  */
 public abstract class CarModel {
 
-	private List<String> sequence = new ArrayList<>();
+	private List<String> sequence;
 
 	protected abstract void start();
 
