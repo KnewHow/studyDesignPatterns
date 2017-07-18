@@ -1,0 +1,3 @@
+The HummerModel design is fail.run method algorithms is same,but
+we write it twice time. We should implement run method in abstract
+method.
