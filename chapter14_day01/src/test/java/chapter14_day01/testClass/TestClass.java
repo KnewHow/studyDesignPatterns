@@ -6,6 +6,6 @@ public class TestClass {
 
 	@Test
 	public void fun1() {
-
+		
 	}
 }
