@@ -1,0 +1,14 @@
+in this case,there some disadvantages
+	1.daughter request,the determine should in father class rather than
+		in client. other request is same
+	
+	2.We use too many {if...else},if the handler is too many,the code
+		readable is terrible
+	
+	3.The coupling is too serious,we should to according to women 
+		status to determine which handler
+		
+	
+	So we can design a request chain,if first condition is don't 
+	meet,we pass the request to next object.
+	
