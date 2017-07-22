@@ -1,0 +1,4 @@
+in this case,we find client directly to call concrete group,it 
+trouble in practice,because client don't call group precise,and add
+or change one plan,one group is enough rather.So we should encapsulate
+client request and call groups intensive. 

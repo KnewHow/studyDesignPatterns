@@ -1,0 +1,3 @@
+In this case,client just communicate with invoker to do some command
+it reduce the client and executer coupling.Client don't need who is
+the executer,it just care whether the command can be executed.

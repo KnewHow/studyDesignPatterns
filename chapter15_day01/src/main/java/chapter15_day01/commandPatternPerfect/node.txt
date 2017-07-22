@@ -1,0 +1,4 @@
+In above case,we find command class depend three executer,but once
+executers change,we need to update the command,it don't a good idea
+so we determine use a class to encapsulate all executer.If executer
+change,we just modify this class
