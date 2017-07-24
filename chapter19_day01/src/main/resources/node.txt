@@ -1,0 +1,8 @@
+Adapter Pattern(适配器模式):
+	Convert the interface of a class into another interface clients
+	expect. Adapter lets classes work together that could't 
+	otherwise because of incompatible interfaces.(将一个类的接口变成换
+	成客户端期待的另一种接口，从而使原本接口不匹配而无法在一起工作的两个类能够一起
+	工作)
+	
+应用场景：这个模式不是设计的时候使用的，而是在发生系统间设计接口要冲突的时候使用的。
