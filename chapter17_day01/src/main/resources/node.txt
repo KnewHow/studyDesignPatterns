@@ -1,1 +1,5 @@
-装饰者模式：动态的给一些对象添加一些额外的职责
+装饰者模式：Attach additional responsible to an object dynamically
+keeping the same interface. Decorators provide a flexible 
+alternative to subclassing for extending functions.
+
+动态的给一些对象添加一些额外的职责
