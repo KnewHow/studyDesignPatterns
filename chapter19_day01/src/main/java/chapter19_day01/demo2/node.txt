@@ -1,0 +1,8 @@
+In demo1 and sum,we find we use extend method to constructor 
+adapter,but sometimes if source has many sub classes,but java don't
+support many extends,how to do it. 
+
+In this case,we will build relation from adapter into source many 
+sub classes.
+
+You can reference from our code.

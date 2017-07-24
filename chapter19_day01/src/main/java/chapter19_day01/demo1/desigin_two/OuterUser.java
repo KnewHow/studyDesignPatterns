@@ -23,7 +23,6 @@ public class OuterUser implements IOuterUser {
 
 	@Override
 	public Map<String, String> getUseHomeInfo() {
-
 		Map<String, String> map = new HashMap<>();
 		map.put("homeTelNumber", "The home tel number is ...");
 		map.put("homeAddress", "the home address is ...");
