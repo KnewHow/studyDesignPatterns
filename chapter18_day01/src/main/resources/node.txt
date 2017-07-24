@@ -1,0 +1,3 @@
+策略模式：Define a family algorithms,encapsulate each one, and make 
+them interchangeable.(定义一组算法，将每个算法都封装起来，使他们彼此之间可以
+互相切换)
