@@ -1,0 +1,4 @@
+In this case,<code>getInfo</code> method in every class,why not
+abstract it. And class <code>root</code> and <code>Branch</code>
+is same,why not use one to represent. So we modify our design in
+demo2,you can reference code

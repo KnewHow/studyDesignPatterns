@@ -1,0 +1,15 @@
+组合模式:Compose(组成) objects into tree structures to represent 
+part-whole hierarchies. Composite lets clients treat individual
+objects and compositions of object uniformly(一致的)
+(将对象组合成树状结构以表示部分--整体的层次结构，使得用户对单个对象和组合对象
+的使用具有一致性)
+
+说白了，也就是如何构造一个关系树。我们本节的代码就我围绕如何用Java对象构造一棵树
+
+组合模式分为安全模式和透明模式，在代码中我们会具体的说明出来
+
+组合模式：就是在抽象类中只列出树状图每个节点共有的方法，然后子类根据是叶子节点
+还是非叶子节点进行添加功能。这样在遍历整个树的时候，需要依赖具体的实现类，不符合
+依赖倒置原则。
+透明模式:透明模式把所以节点需要的方法都写在抽象类里面，如果子类不需要这些方法，就
+进行空实现。这样在遍历时就可以依赖抽象类，符合依赖倒置原则

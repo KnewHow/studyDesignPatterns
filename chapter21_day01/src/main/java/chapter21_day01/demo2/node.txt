@@ -1,0 +1,5 @@
+In this case,we let root and branch combine,and let them has public
+interface <code>ICorp</code>.But how can make our program more 
+simply.We find in this case,we has many interfaces,and every class
+has <code>name</code> ,<code>salary</code>,<code>position</code>,
+Why not abstract them into a abstract class.Reference code in demo3
