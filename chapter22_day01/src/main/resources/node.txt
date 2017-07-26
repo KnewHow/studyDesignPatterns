@@ -1,0 +1,6 @@
+观察者模式(Observer Pattern):Define a one-two many dependency between
+objects so that when one object changes state,all its dependents 
+are notified and updated automatically.
+
+其实被观察者只要继承java.util.Observale类，而观察者继承java.util.Observable
+类，不过为了演示，我们还是一步步的来实现

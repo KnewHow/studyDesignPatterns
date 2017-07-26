@@ -1,0 +1,3 @@
+In this case,we use two thread to listen HangFeizi,but we use
+the while(true) will take up many resource. If in practice,this 
+method is terrible,how to solve it problem
