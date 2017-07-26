@@ -1,0 +1,23 @@
+迭代器模式:Provide a way to access the elements of an aggregate(容器)
+object sequentially without exposing its underlying(潜在的) 
+representation(它提供一种方式访问一个容器对象中的各个元素，而且又不暴露该对象的
+内部细节)
+
+其实也就是实现java.util.iterator接口，然后根据自己的软件开发需求实现里面的方法。
+但是这种设计模式现在基本上已经没落了，因为Java已经提供了很多自带的容器，这些容器
+已经实现了java.util.iterator接口，在实际开发中，一般都是够用的。
+
+JDK1.8中实现的 java.util.Iterable
+    AbstractCollection, AbstractList, AbstractQueue,
+    AbstractSequentialList, AbstractSet, ArrayBlockingQueue, 
+    ArrayDeque, ArrayList, AttributeList, BatchUpdateException, 
+    BeanContextServicesSupport, BeanContextSupport, 
+    ConcurrentHashMap.KeySetView, ConcurrentLinkedDeque, 
+    ConcurrentLinkedQueue, ConcurrentSkipListSet, 
+    CopyOnWriteArrayList, CopyOnWriteArraySet, DataTruncation, 
+    DelayQueue, EnumSet, HashSet, JobStateReasons, 
+    LinkedBlockingDeque, LinkedBlockingQueue, LinkedHashSet, 
+    LinkedList, LinkedTransferQueue, PriorityBlockingQueue, 
+    PriorityQueue, RoleList, RoleUnresolvedList, RowSetWarning, 
+    SerialException, ServiceLoader, SQLClientInfoException, 
+    SQLDataException, SQLException, SQLFeatureNotSupportedException, SQLIntegrityConstraintViolationException, SQLInvalidAuthorizationSpecException, SQLNonTransientConnectionException, SQLNonTransientException, SQLRecoverableException, SQLSyntaxErrorException, SQLTimeoutException, SQLTransactionRollbackException, SQLTransientConnectionException, SQLTransientException, SQLWarning, Stack, SyncFactoryException, SynchronousQueue, SyncProviderException, TreeSet, Vector
