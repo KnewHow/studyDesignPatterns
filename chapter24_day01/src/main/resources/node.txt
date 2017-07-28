@@ -1,0 +1,11 @@
+备忘录模式(Memento Pattern)：Without violating(违反) encapsulation,
+capture(捕获) and externalize(外部化) an object's internal state so
+that the object can be restore to this sate later.(在不破坏封装的前提
+下，捕获一个对象的内部状态，并在该对象的外部保存该状态，这样以后就可以将该对象
+回复有到原先保存的状态)
+
+就是备份和恢复：
+	*如何备份：使用一个类，里面存放被备份对象的状态
+	*如果被备份的对象有多个状态，如果备份
+	*如何备份多份
+

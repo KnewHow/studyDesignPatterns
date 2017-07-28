@@ -1,0 +1,2 @@
+In this case,backup object don't encapsulate,and client don't need
+to know how to backup

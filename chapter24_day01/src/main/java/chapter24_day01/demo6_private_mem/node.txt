@@ -1,0 +1,4 @@
+In this case,we can private the memeoto,make it more safe.
+In practice ,we can provide two interface.one interface is to
+do nothing,just to provide a way that can pass object,like this
+case IMemento. 
