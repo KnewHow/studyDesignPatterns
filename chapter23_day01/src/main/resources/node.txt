@@ -1,0 +1,6 @@
+门面模式:Provide a unified(统一的) interface to a set of interfaces 
+in a subsystem. Facade(门面) defines a high-level interface that
+makes the subsystem easier to use.
+
+也就是在一个复杂的子系统中，定义(提供)一个统一的接口来对外提供服务，隐藏里面的具体
+的实现类，但是门面类不参与子系统的业务逻辑
