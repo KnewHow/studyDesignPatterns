@@ -1,0 +1,8 @@
+状态模式(State pattern):Allow an object to alter its behavior
+when its internal state changes. The object will appear to change
+it class(当一个对象内在状态改变时允许改变其行为，这个对象看起来向改变了其类)
+
+在Java中，如果通过大量的if...else语句来切换状态，会造成后期的维护很困难。所以
+我们为每个状态定义一个类，而状态间的切换逻辑由状态本身决定。例如A状态切换到B状态，
+那么我们在A状态中定义切换的逻辑，然后把状态交给状态管理器Context，由context去
+查找对应的执行方法
