@@ -1,0 +1,7 @@
+This case is not visitor pattern,it just to show employee 
+information, in following case,we will to modify code,lets it 
+change into visitor pattern.
+
+In practice,manager and common employee is different,so we don't 
+let them use a same get information method,we let a class to reload
+the two or more type employees information 

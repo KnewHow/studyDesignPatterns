@@ -1,0 +1,6 @@
+访问者模式(Visitor Pattern)：Represent an operation to be performed
+on the elements of object structure. Visitor lets you define new
+operation without changing the class of the elements on which it
+operates.(封装一些作用于某种数据结构的各类元素操作，他可以在不改变数据结构的前提
+下定义作用于这些元素的新的操作)
+

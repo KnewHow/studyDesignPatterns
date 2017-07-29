@@ -1,0 +1,3 @@
+In this case,we want old actor say he is old,don't act kungfu,but 
+Java's static dispatch let it produce mistake,how to solve it.we 
+can use visitor to solve this problem.

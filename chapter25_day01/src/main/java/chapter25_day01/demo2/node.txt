@@ -1,0 +1,3 @@
+This case is visitor pattern,it defines a visitor object,we
+can access employee by the object and don't break the employee
+data structure.

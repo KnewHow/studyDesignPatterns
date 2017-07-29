@@ -1,0 +1,4 @@
+In statistic case,we add get total salary method in information
+visitor,now we separate them into two different visitor,how to 
+do it. We just to let these two visitor to implement same visitot
+interface.

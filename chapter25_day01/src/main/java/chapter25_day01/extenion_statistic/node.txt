@@ -1,0 +1,4 @@
+In this case,we need to statistic employee total salary and ask
+manage salary's coefficient is 5 and common employee's coefficient
+is 2,how to solve this problem,we can add a method in visitor and
+call it it client.
