@@ -1,0 +1,1 @@
+In this case,we will compare key is javaBean and string effective.

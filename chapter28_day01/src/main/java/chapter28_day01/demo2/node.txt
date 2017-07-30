@@ -1,0 +1,3 @@
+We find subject is has four type and location has 120 type
+why not abstract it and share them. In this case,we let 
+location+subject into a key to in pool.
