@@ -1,0 +1,9 @@
+解释器模式(Interpreter Pattern):Give a language,define a 
+representation for its grammar along with an interpreter that 
+use the representation to interpret sentences in the language.(给
+定一门语言，定义它文法的一种表示，并且定义一个解释器，该解释器使用该表示来解释
+语言中的句子)
+
+太理论了，还是看代码吧
+
+现在这个模式用的比较少，除非去开发编译器或者解释器，一般用现成的框架或者工具
