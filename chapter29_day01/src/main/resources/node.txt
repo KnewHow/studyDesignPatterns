@@ -1,0 +1,5 @@
+桥梁模式(Bridge Pattern):Decouple(解耦) an abstraction from
+it implementation so the two can vary independently.(将抽象和实现
+解耦，使两者可以独立变化)
+
+当一个接口有多个实现，而且这些实现需要来回切换，可以考虑使用这中模式
