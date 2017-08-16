@@ -51,4 +51,11 @@ public class Card {
 		this.freeMoney = freeMoney;
 	}
 
+	@Override
+	public String toString() {
+		return "Card [cardNo=" + cardNo + ", steadyMoney=" + steadyMoney + ", freeMoney=" + freeMoney + "]";
+	}
+	
+	
+
 }

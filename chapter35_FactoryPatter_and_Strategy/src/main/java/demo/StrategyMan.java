@@ -1,7 +1,7 @@
 package demo;
 
 public enum StrategyMan {
-	SteadyDeduction("demo.SteadyDeduction"), FreeDeduction("demo.FreeDeduction.java");
+	SteadyDeduction("demo.SteadyDeduction"), FreeDeduction("demo.FreeDeduction");
 
 	String value = "";
 
