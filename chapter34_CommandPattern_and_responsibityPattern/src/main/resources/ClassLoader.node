@@ -1,0 +1,13 @@
+Class ClassLoader
+
+protected URL findResource(String name)
+
+Finds the resource with the given name. Class loader implementations should override 
+this method to specify where to find resources.
+
+Parameters:
+    name - The resource name
+Returns:
+    A URL object for reading the resource, or null if the resource could not be found
+Since:
+    1.2 

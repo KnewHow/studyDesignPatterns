@@ -1,0 +1,23 @@
+(1)关键字在代码中的使用：
+
+assert 有两种使用方法：
+
+　　1)assert BooleanCondition;
+
+asssert后边跟一个布尔表达式。
+
+如果表达式的值为true，那么就认为当前条件符合要求，继续执行业务代码。
+
+如果表达式的值为false，那么久认为当前条件不符合要求，立即抛出AssertionError的错误。
+
+AssertionError extends Error extends Throwable.Throw这个类，平常使用的相对较少，它还有一个子类叫做Exception。Error和Exception一样，均属于系统不应该试图捕获的严重问题。
+
+　　2)assert BooleanCondition:Excepiton
+
+assert后边跟一个布尔表达式，同时再跟一个返回值为基本类型的表达式。
+
+当表达式为true时，则继续运(防盗连接：本文首发自http://www.cnblogs.com/jilodream/ )行剩余业务代码，不会执行‘:’后边的表达式。
+
+当表达式为false时，则会执行‘:’后边的表达式，并将结果放置在AssertionError异常中，并抛出。
+
+下面给一个代码示例：
