@@ -1,0 +1,7 @@
+In demo1,we find findByName and findByAge the only different is the condition,can we define
+a specification to let them combine.
+
+But another question produce,if want to many condition combine,how to do it.
+One way is change specification and filter each time,but it will be low effective,how
+to solve it. We know two specification combine is also specification,so....
+you can reference demo three.

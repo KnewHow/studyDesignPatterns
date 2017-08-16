@@ -1,0 +1,3 @@
+In this case,we will select some users by information from a serial user,how to do it.
+we know the condition is too much,we can not write method when meet a condition, how to
+deal with it,can we combine them? And a method will add the maintainability of the soft.
